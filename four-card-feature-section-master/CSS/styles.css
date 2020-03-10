@@ -1,0 +1,33 @@
+body {
+   
+   
+   background-color: #f5fcc1;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.white {
+    width: 90%;
+    height: 90%;
+    background-color: #fbf9fa;
+    box-shadow: 5px 5px 10px grey;
+    margin : auto;
+    text-align : center;
+    padding: 50px;
+
+}
+
+.tiles {
+    position: relative;
+}
+
+.common {
+    width: 25%;
+    box-shadow: 5px 5px 10px grey;
+    /* position: absolute; */
+    padding: 20px;
+    border-radius: 5%;
+}
+ 
