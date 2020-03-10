@@ -1,16 +1,97 @@
+/* --------------------------------------------------ELEMENT SELECTORS--------------------------------------------------- */
+
 body {
-   
-   
    background-color: #f5fcc1;
 }
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0;
+}
+
+p {
+    color : hsl(229, 6%, 66%);
+    line-height: 1.5;
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 180px;
+}
+
+/* --------------------------------------------------CLASS SELECTORS--------------------------------------------------- */
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+.Calculator {
+    position: absolute;
+    right: 13%;
+    top: 28%;
+}
+
+.common {
+    width: 20%;
+    box-shadow: 5px 5px 10px grey;
+    padding: 5px 5px 20px 30px;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0;
+}
+
+.heading2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-top: 0;
+}
+
+.heading3 {
+    width: 40%;
+    margin: auto;
+}
+
+.Karma {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+}
+
+.main-heading {
+    margin-bottom: 30px;
+}
+
+.Supervisor {
+    position: absolute;
+    top: 28%;
+    left: 12%;
+}
+
+.TeamBuilder {
+    position: absolute;
+    left: 38%;
+    top: 5%;
+}
+
+.TileDescription {
+    margin-top: 3px;
+}
+
+.tiles {
+    position: relative;
+    height: 600px;
+
+}
+
 .white {
     width: 90%;
-    height: 90%;
     background-color: #fbf9fa;
     box-shadow: 5px 5px 10px grey;
     margin : auto;
@@ -18,16 +99,3 @@ body {
     padding: 50px;
 
 }
-
-.tiles {
-    position: relative;
-}
-
-.common {
-    width: 25%;
-    box-shadow: 5px 5px 10px grey;
-    /* position: absolute; */
-    padding: 20px;
-    border-radius: 5%;
-}
- 
